@@ -1,3 +1,3 @@
-# jave-grpc-test
+# java-grpc-test
 
-jave-grpc-test
+java-grpc-test
