@@ -1,11 +1,10 @@
-package main.java;
+package maav.testnn;
 
-import org.yaml.snakeyaml.Yaml;
+import maven.selenium.testng.ImJa;
 
 public class Main {
     public static void main(String[] args) {
-        Yaml yaml = new Yaml();
-        System.out.println(yaml);
+        new ImJa().imJ();
         System.out.println("test Main Class");
     }
 }
