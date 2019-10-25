@@ -11,10 +11,11 @@ public class Main {
         Yaml yaml = new Yaml();
         File f=new File("src/main/config/test.yaml");
         //读入文件
-        Map result= (Map) yaml.load(new FileInputStream(f));
+        Map result= yaml.load(new FileInputStream(f));
         System.out.println(result);
         System.out.println((int)result.get("port"));
         System.out.println(result.get("children"));
         System.out.println("test Main Class");
+
     }
 }
