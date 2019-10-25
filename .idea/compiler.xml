@@ -10,6 +10,5 @@
         <module name="mavenseleniumtestng" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="12" />
   </component>
 </project>
